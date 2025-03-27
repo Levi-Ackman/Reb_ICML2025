@@ -8,6 +8,7 @@ The selected datasets include **PPMI** (T = 210, N=100), **Neurocon** (T = 137, 
 - **Neurocon**: 15 controls and 26 patients.  
 - **Taowu**: 20 controls and 20 patients.
 
+The result below reveals that **beyond forecasting tasks, our ReFocus also demonstrates remarkable performance on classification tasks.**
 
 |Datasset|ReFocus|iTransformer|Crossformer|PatchTST|TSMixer|
 |--------|-------|------------|-----------|--------|-------|
