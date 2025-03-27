@@ -1,5 +1,14 @@
 ### High Sampling Rate Time Series Data
 
+We conducted our experiments using three datasets from the *NeurIPS 2023 Track on Datasets and Benchmarks* paper *"Data-Driven Network Neuroscience: On Data Collection and Benchmark."* 
+
+The selected datasets include **PPMI** (T = 210, N=100), **Neurocon** (T = 137, N=100), and **Taowu** (T = 239, N=100). 
+
+- **PPMI**: 14 controls, 112 patients, 8 prodromal cases, and 3 SWEDD subjects.  
+- **Neurocon**: 15 controls and 26 patients.  
+- **Taowu**: 20 controls and 20 patients.
+
+These datasets were chosen for their diversity in clinical annotations and imaging protocols, allowing for a robust evaluation of our proposed methods across heterogeneous real-world conditions.
 
 
 |Datasset|ReFocus|iTransformer|Crossformer|PatchTST|TSMixer|
