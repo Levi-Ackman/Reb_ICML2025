@@ -1,3 +1,14 @@
+### Forecasting Benchmark Beyond Sensor Time Series
+
+We chose two datasets:
+
+**Exchange** features daily exchange rates for eight countries from 1990 to 2016. 
+
+**illness** comprises weekly records of influenza-like illness (ILI) patient counts from the Centers for Disease Control and Prevention in the United States from 2002 to 2021.
+
+
+Our ReFocus achieves improvements of **3.61%** (Exchange) and **8.68%** (illness) over the second-best baseline, respectively.
+
 |Dataset | Length | ReFocus| FilterNet | iTransformer| PatchTST| TimesNet|
 |--------|--------|-------------------|---------------------|------------------------|--------------------|--------------------|
 |||MSE/MAE|MSE/MAE|MSE/MAE|MSE/MAE|MSE/MAE|
