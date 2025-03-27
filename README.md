@@ -9,27 +9,27 @@ This is the supplementary experiment and visualization repository for the paper 
 
 ## Readers can check each markdown file to view corresponding supplementary experiments and analyses.
 
-**Core Frequency visualization.md：** 
+**[Core Frequency visualization.md]()** 
 ——(Reviewer Xhc1)
 
 *Visualization of **ReFocus** about its functionality of extracting the shared **Key-frequency** across channels.*
 
-**Efficiency analysis.md:** 
+**[Efficiency analysis.md]()** 
 ——(Reviewer 6raL&Xhc1&XwNW)
 
 *Efficiency Anylysis of ReFocus Considering **Computational Complexity**, **Inference Time**, and **Memory Usage***
 
-**Domain generalization.md** 
+**[Domain generalization.md]()** 
 ——(Reviewer 6raL)
 
 *Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the **High Sampling Rate** dataset.*
 
-**Additional baseline.md** 
+**[Additional baseline.md]()** 
 ——(Reviewer Xhc1&XwNW)
 
 *Additional comparison with **TimeMixer** and **TimeXer**.*
 
-**[Hyperparameter serach.md](https://github.com/Levi-Ackman/Reb_ICML2025/blob/main/Hyperparameter%20serach.md)**
+**[Hyperparameter serach.md]()**
 ——(Reviewer Xhc1)
 
 *Additional comparison with **iTransformer** and **PatchTST** under **Hyperparameter Search***.
