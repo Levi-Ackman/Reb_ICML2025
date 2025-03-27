@@ -1,4 +1,4 @@
-***By assigning the task of capturing inter-series dependencies to ReFocus, the learned embeddings gain improved interpretability.*** 
+## By assigning the task of capturing inter-series dependencies to ReFocus, the learned embeddings gain improved interpretability
 
 To validate this, we provide **Analysis of multivariate correlations on ECL and Traffic**. 
 
