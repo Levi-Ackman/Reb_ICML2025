@@ -29,10 +29,10 @@ This is the supplementary experiment and visualization repository for the paper 
 
 *Additional comparison with TimeMixer and TimeXer.*
 
-**Hyperparameter Serach.md**
+**Hyperparameter serach.md**
 ——(Reviewer Xhc1)
 
-**
+*Additional comparison with iTransformer and PatchTST under **Hyperparameter Search***, including learning_rate $lr \in [1e−5, 1e−4, 1e-3\]$, batch size $bs \in [32, 64, 128\]$, Number od Encoder $N \in [1,2,3,4\]$, Dimension of Model $D \in [128, 256, 512\]$. We set the training epochs to 100.
 
 
 
