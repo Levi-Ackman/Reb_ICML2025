@@ -9,7 +9,7 @@ This is the supplementary experiment and visualization repository for the paper 
 
 ## Readers can check each markdown file to view corresponding supplementary experiments and analyses.
 
-**[Core Frequency visualization.md]()** 
+**[Core Frequency visualization.md](https://anonymous.4open.science/r/ICML2025_ReFocus_2889/Core%20Frequency%20visualization.md)** 
 ——(Reviewer Xhc1)
 
 *Visualization of **ReFocus** about its functionality of extracting the shared **Key-frequency** across channels.*
