@@ -12,22 +12,27 @@ This is the supplementary experiment and visualization repository for the paper 
 **Core Frequency Visualization.md：** 
 ——(Reviewer Xhc1)
 
-Analysis of the computational complexity of  **ReFocus**.
+*Analysis of the computational complexity of  **ReFocus**.*
 
 **Efficiency Analysis.md:** 
 ——(Reviewer 6raL&Xhc1&XwNW)
 
-Further performance comparisons of predictions were made using an input length of 512 (aligned with PatchTST).
+*Further performance comparisons of predictions were made using an input length of 512 (aligned with PatchTST).*
 
 **Domain generalization.md** 
 ——(Reviewer 6raL)
 
-Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the High Sampling Rate dataset.
+*Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the High Sampling Rate dataset.*
 
 **Additional baseline.md** 
 ——(Reviewer Xhc1&XwNW)
 
-Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the High Sampling Rate dataset.
+*Additional comparison with TimeMixer and TimeXer.*
+
+**Hyperparameter Serach.md**
+——(Reviewer Xhc1)
+
+**
 
 
 
