@@ -17,12 +17,12 @@ This is the supplementary experiment and visualization repository for the paper 
 **Efficiency analysis.md:** 
 ——(Reviewer 6raL&Xhc1&XwNW)
 
-*Efficiency Anylysis of ReFocus Considering Computational Complexity, Inference Time, and Memory Usage*
+*Efficiency Anylysis of ReFocus Considering **Computational Complexity**, **Inference Time**, and **Memory Usage***
 
 **Domain generalization.md** 
 ——(Reviewer 6raL)
 
-*Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the High Sampling Rate dataset.*
+*Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the **High Sampling Rate** dataset.*
 
 **Additional baseline.md** 
 ——(Reviewer Xhc1&XwNW)
