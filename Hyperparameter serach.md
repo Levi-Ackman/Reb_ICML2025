@@ -3,7 +3,7 @@ Additional comparison with **iTransformer** and **PatchTST** under **Hyperparame
 We chose the ***input-96-forecast-720*** task.
 
 Including learning_rate $lr \in [1e−5, 1e−4, 1e-3]$, batch size $bs \in [32, 64, 128]$, Number od Encoder $N \in [1,2,3,4]$, 
-and Dimension of Model $D \in [128, 256, 512\]$. 
+and Dimension of Model $D \in [128, 256, 512]$. 
 
 *We set the training epochs to 100 (to balance the extra epochs trained under the `Key Frequency Enhanced Training Strategy').*
 
