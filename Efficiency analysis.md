@@ -33,8 +33,8 @@ Additionally, as illustrated in Figure (**Right**) below, we compare the memory 
 
 **ReFocus** exhibits high efficiency, achieving SOTA performance with significantly reduced memory usage and computational cost.
 
-*(with Batch size $B=32$, Input length $T=96$, Channel $C=862$ Forecasting length $F=720$)*
+*(with Batch size $B=32$, Input length $T=96$, Channel $C=862$, and Forecasting length $F=720$)*
 
-<img src="Figs/efficiency.jpg" alt="efficiency" width=90%>
+<img src="Figs/efficiency.jpg" alt="efficiency" width=100%>
 
 
