@@ -6,7 +6,7 @@ Given an input of shape $X$ [N, D]. (N is the number of tokens, and D is the mod
 
 **MLP1**
 $O(N \cdot D^2)+O(N \cdot D \cdot Q)$.
-Since $Q \ll D$ ($Q = 128$, and $D = 512$ in this work), the dominant cost is $O(N \cdot D^2)$.
+Since $Q \ll D$ ($Q = 128, D = 512$ in this work), the dominant cost is $O(N \cdot D^2)$.
 
 **Energy-based Frequency Picking**
 The complexity of FFT is $O(N \cdot Q \cdot \log Q)$, and so is the IFFT. Complexity of Energy computing, Softmax and Component Picking, each part is $O(N \cdot Q)$. 
