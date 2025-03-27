@@ -19,3 +19,4 @@ and Dimension of Model $D \in [128, 256, 512\]$.
 | **Weather**    | 0.356 / 0.348   | 0.353 / 0.347  | **0.344 / 0.343**  |
 | **Solar_Energy** | 0.247 / 0.274 | 0.259 / 0.282  | **0.242 / 0.271**  |
 
+The proposed **ReFocus** significantly outperforms both **iTransformer** and **PatchTST**.
