@@ -19,12 +19,12 @@ This is the supplementary experiment and visualization repository for the paper 
 
 *Efficiency Anylysis of ReFocus Considering **Computational Complexity**, **Inference Time**, and **Memory Usage***
 
-**[Domain generalization.md]()** 
+**[Domain generalization.md](https://anonymous.4open.science/r/ICML2025_ReFocus_2889/Domain%20generalization.md)** 
 ——(Reviewer 6raL)
 
 *Additional Experiments about the **Domain Deneralization** of the proposed method. Especially on the **High Sampling Rate** dataset.*
 
-**[Additional baseline.md]()** 
+**[Additional baseline.md](https://anonymous.4open.science/r/ICML2025_ReFocus_2889/Additional%20baseline.md)** 
 ——(Reviewer Xhc1&XwNW)
 
 *Additional comparison with **TimeMixer** and **TimeXer**.*
