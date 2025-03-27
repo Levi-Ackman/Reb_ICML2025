@@ -9,15 +9,15 @@ This is the supplementary experiment and visualization repository for the paper 
 
 ## Readers can check each markdown file to view corresponding supplementary experiments and analyses.
 
-**Core Frequency Visualization.md：** 
+**Core Frequency visualization.md：** 
 ——(Reviewer Xhc1)
 
-*Analysis of the computational complexity of  **ReFocus**.*
+*Visualization of **ReFocus** about its functionality of extracting the shared **Key-frequency** across channels.*
 
-**Efficiency Analysis.md:** 
+**Efficiency analysis.md:** 
 ——(Reviewer 6raL&Xhc1&XwNW)
 
-*Further performance comparisons of predictions were made using an input length of 512 (aligned with PatchTST).*
+*Efficiency Anylysis of ReFocus Considering Computational Complexity, Inference Time, and Memory Usage*
 
 **Domain generalization.md** 
 ——(Reviewer 6raL)
@@ -27,7 +27,7 @@ This is the supplementary experiment and visualization repository for the paper 
 **Additional baseline.md** 
 ——(Reviewer Xhc1&XwNW)
 
-*Additional comparison with TimeMixer and TimeXer.*
+*Additional comparison with **TimeMixer** and **TimeXer**.*
 
 **Hyperparameter serach.md**
 ——(Reviewer Xhc1)
