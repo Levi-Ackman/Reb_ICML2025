@@ -14,7 +14,7 @@ This is the supplementary experiment and visualization repository for the paper 
 
 *Visualization of **ReFocus** about its functionality of extracting the shared **Key-frequency** across channels.*
 
-**[Efficiency analysis.md]()** 
+**[Efficiency analysis.md](https://anonymous.4open.science/r/ICML2025_ReFocus_2889/Efficiency%20analysis.md)** 
 ——(Reviewer 6raL&Xhc1&XwNW)
 
 *Efficiency Anylysis of ReFocus Considering **Computational Complexity**, **Inference Time**, and **Memory Usage***
@@ -29,7 +29,7 @@ This is the supplementary experiment and visualization repository for the paper 
 
 *Additional comparison with **TimeMixer** and **TimeXer**.*
 
-**[Hyperparameter serach.md]()**
+**[Hyperparameter serach.md](https://anonymous.4open.science/r/ICML2025_ReFocus_2889/Hyperparameter%20serach.md)**
 ——(Reviewer Xhc1)
 
 *Additional comparison with **iTransformer** and **PatchTST** under **Hyperparameter Search***.
