@@ -24,3 +24,5 @@ So, the overall complexity is dominated by $O(N \cdot D^2)$, which is Linear to 
 $O(N^2 \cdot D)+O(N \cdot D^2)$ (Self-Attention + FFN).
 
 For large $N$, the Quadradic $O(N^2)$ term becomes the bottleneck, whereas our **ReFocus** Block avoids this quadratic cost.
+
+<img src="Figs/efficieny.jpg" alt="efficiency" width=90%>
