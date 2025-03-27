@@ -1,6 +1,18 @@
-## By assigning the task of capturing inter-series dependencies to ReFocus, the learned embeddings gain improved interpretability
+### ReFocus effectively captures key frequency components shared across channels.
+
+To support this claim, we visualize the average spectral energy across all channels for both the ground truth samples $Y$ and the predictions by ReFocus $\hat{Y}$.
+
+We chose the *input-96-forecast-720* on ECL and Traffic.
+
+The following results demonstrate that the channel-wise average spectral distributions of $Y$ and $\hat{Y}$ are nearly identical. The computed cosine similarity reaches as high as **99.92%** (Traffic) and **99.89%** (ECL), indicating a striking alignment in their frequency characteristics.
+
+<img src="Figs/core_freq.jpg" alt="efficiency" width=100%>
+
+### By assigning the task of capturing inter-series dependencies to ReFocus, the learned embeddings gain improved interpretability
 
 To validate this, we provide **Analysis of multivariate correlations on ECL and Traffic**. 
+
+We chose the *input-96-forecast-720* on ECL and Traffic.
 
 Below is the visualization of multivariate correlations of raw time series and the learned representation by Refocus Encoder. 
 
