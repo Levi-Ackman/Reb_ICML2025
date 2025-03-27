@@ -1,3 +1,13 @@
+### High Sampling Rate Time Series Data
+
+
+
+|Datasset|ReFocus|iTransformer|Crossformer|PatchTST|TSMixer|
+|--------|-------|------------|-----------|--------|-------|
+|Neurocon|**0.7567**|0.7311|0.6433|0.6567|0.7072|
+|PPMI|**0.7161**|0.6429|0.6166|0.6450|0.6263|
+|Taowu|**0.7800**|0.7650|0.6177|0.5950|0.6500|
+
 ### Forecasting Benchmark Beyond Sensor Time Series
 
 We chose two datasets:
