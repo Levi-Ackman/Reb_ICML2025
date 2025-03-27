@@ -25,4 +25,16 @@ $O(N^2 \cdot D)+O(N \cdot D^2)$ (Self-Attention + FFN).
 
 For large $N$, the Quadradic $O(N^2)$ term becomes the bottleneck, whereas our **ReFocus** Block avoids this quadratic cost.
 
-<img src="Figs/efficieny.jpg" alt="efficiency" width=90%>
+As shown in the Figure (**Left**) below, we compare the memory consumption of ReFocus and iTransformer under varying numbers of channels. 
+
+*(with Batch size $B=4$, Input length $T=96$, Forecasting length $F=720$)*
+
+Additionally, as illustrated in Figure (**Right**) below, we compare the memory and time consumption across different models. 
+
+**ReFocus** exhibits high efficiency, achieving SOTA performance with significantly reduced memory usage and computational cost.
+
+*(with Batch size $B=32$, Input length $T=96$, Channel $C=862$ Forecasting length $F=720$)*
+
+<img src="Figs/efficiency.jpg" alt="efficiency" width=90%>
+
+
