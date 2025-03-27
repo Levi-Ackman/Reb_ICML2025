@@ -29,7 +29,7 @@ This is the supplementary experiment and visualization repository for the paper 
 
 *Additional comparison with **TimeMixer** and **TimeXer**.*
 
-**Hyperparameter serach.md**
+**[Hyperparameter serach.md](https://github.com/Levi-Ackman/Reb_ICML2025/blob/main/Hyperparameter%20serach.md)**
 ——(Reviewer Xhc1)
 
 *Additional comparison with **iTransformer** and **PatchTST** under **Hyperparameter Search***.
