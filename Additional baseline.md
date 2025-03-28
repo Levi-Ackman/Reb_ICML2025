@@ -1,4 +1,5 @@
-###
+### Compare with Extensive Baseline
+In response to the suggestions from Reviewer Xhc1 & XwNW, we have additionally included comparative experiments against two recent strong baselines: **TimeXer** and **TimeMixer**. To conserve space, we report the average performance across four forecasting horizons [96, 192, 336, and 720].
 
 These results demonstrate that **ReFocus consistently outperforms two strong baselines, TimeMixer and TimeXer, across a range of standard time series benchmarks**. 
 
