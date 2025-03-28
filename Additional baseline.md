@@ -1,3 +1,9 @@
+These results demonstrate that **ReFocus consistently outperforms two strong baselines, TimeMixer and TimeXer, across a range of standard time series benchmarks**. 
+
+It achieves the best MSE/MAE scores on most datasets, including significant improvements on ECL and Traffic. Even in cases where it is not the top performer, ReFocus remains highly competitive.
+
+Its effectiveness across diverse datasets—ranging from electricity to traffic and weather—further highlights its adaptability and generalization capability.
+
 | Dataset   | ReFocus   | TimeMixer |TimeXer|
 |-|-|-|-|
 || MSE / MAE   | MSE / MAE|MSE / MAE |
