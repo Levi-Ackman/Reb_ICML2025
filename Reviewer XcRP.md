@@ -8,7 +8,7 @@ We address all noted concerns below. (*Notably, we've uploaded a revised manuscr
 
 Thanks for raising this critical question, which inspires us to explore a quantitative analysis (in *Appendix C.6*) of the current MedTS. 
 
-We introduce two metrics, Spectral Centralization Index (SCI) and Dynamic Influence Centralization (DIC)—*details can be found in the revised manuscript*—to measure the spatial and temporal centralization, respectively. *The higher value indicates a higher centralization*. We also include three general-purpose datasets (energy: ETTh2, ETTm2, climate: Weather) for comparison.
+We introduce two metrics, Spectral Centralization Index (SCI) *[1]* and Dynamic Influence Centralization (DIC) *[2]*—*details can be found in the revised manuscript*—to measure the spatial and temporal centralization, respectively. *The higher value indicates a higher centralization*. We also include three general-purpose datasets (energy: ETTh2, ETTm2, climate: Weather) for comparison.
 
 ||ADFTD|APAVA|TDBrain|PTB|PTB-XL|ETTh2|ETTm2|Weather|
 |-|-|-|-|-|-|-|-|-|
@@ -21,7 +21,7 @@ These findings quantitatively validate our hypothesis and further justify why Te
 
 ### W.2 Additional Comparisons with GAFormer and CATS.
 
-We thank the reviewer for highlighting **GAFormer** and **CATS** as two highly relevant works that merit further discussion.
+We thank the reviewer for highlighting **GAFormer** *[3]* and **CATS** *[4]* as two highly relevant works that merit further discussion.
 
 In response, we have added *Section C.4* in the revised Appendix, providing focused analysis and direct comparison. A summary is below:
 
@@ -35,7 +35,7 @@ In response, we have added *Section C.4* in the revised Appendix, providing focu
 * **Similarity:** Both utilize global or auxiliary tokens for information aggregation and redistribution.
 * **Difference:** CATS uses *static, parameterized auxiliary tokens* with decentralized attention. TeCh generates a *data-dependent core token* via CoTAR and enforces *centralized communication*, offering improved robustness under subject variability.
 
-Since neither GAFormer nor CATS provides publicly available code or sufficient implementation details, we adopt **Leddam** and **TimeXer** as the closest reproducible counterparts in our comparative experiments.
+Since neither GAFormer nor CATS provides publicly available code or sufficient implementation details, we adopt **Leddam** *[5]* and **TimeXer** *[6]* as the closest reproducible counterparts in our comparative experiments.
 
 |Method|ADFTD|ADFTD|APAVA|APAVA|TDBrain|TDBrain|PTB|PTB|PTB-XL|PTB-XL|
 |-|-|-|-|-|-|-|-|-|-|-|
