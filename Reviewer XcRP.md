@@ -1,6 +1,6 @@
 ## Reviewer XcRP
 
-Thanks to Reviewer XcRP for the constructive comments, especially the recognition of our ***conceptual framing***, the ***linear complexity*** of CoTAR, and ***the rigor and reproducibility of our experiments*** (seven datasets, multiple metrics, released code). 
+Thanks to Reviewer XcRP for the constructive comments, especially the recognition of our ***conceptual framing***, the ***linear complexity*** of CoTAR, and ***the rigor and reproducibility of our experiments*** (seven datasets, multiple metrics, comprehensive experiments, and released code). 
 
 We address all noted concerns below. (*Notably, we've uploaded a revised manuscript, all newly added contents are in **Red**, and all revised contents are in **Purple**.*)
 
@@ -8,7 +8,7 @@ We address all noted concerns below. (*Notably, we've uploaded a revised manuscr
 
 Thanks for raising this critical question, which inspires us to explore a quantitative analysis (in *Appendix C.6*) of the current MedTS. 
 
-We introduce two metrics, Spectral Centralization Index (SCI) *[1]* and Dynamic Influence Centralization (DIC) *[2]*—*details can be found in the revised manuscript*—to measure the spatial and temporal centralization, respectively. *The higher value indicates a higher centralization*. We also include three general-purpose datasets (energy: ETTh2, ETTm2, climate: Weather) for comparison.
+We introduce two metrics, Spectral Centralization Index (SCI) *[1]* and Dynamic Influence Centralization (DIC) *[2]*—*details can be found in the revised manuscript*—to measure the spatial and temporal centralization, respectively. *The higher value indicates a higher centralization*. We also include three general-purpose datasets (energy: ETTh2, ETTm2; climate: Weather) for comparison.
 
 ||ADFTD|APAVA|TDBrain|PTB|PTB-XL|ETTh2|ETTm2|Weather|
 |-|-|-|-|-|-|-|-|-|
@@ -35,7 +35,7 @@ In response, we have added *Section C.4* in the revised Appendix, providing focu
 * **Similarity:** Both utilize global or auxiliary tokens for information aggregation and redistribution.
 * **Difference:** CATS uses *static, parameterized auxiliary tokens* with decentralized attention. TeCh generates a *data-dependent core token* via CoTAR and enforces *centralized communication*, offering improved robustness under subject variability.
 
-Since neither GAFormer nor CATS provides publicly available code or sufficient implementation details, we adopt **Leddam** *[5]* and **TimeXer** *[6]* as the closest reproducible counterparts in our comparative experiments.
+Since neither GAFormer nor CATS provides publicly available code or sufficient implementation details, we adopt **Leddam** *[5]* and **TimeXer** *[6]* as the closest reproducible counterparts in our comparative experiments, respectively.
 
 |Method|ADFTD|ADFTD|APAVA|APAVA|TDBrain|TDBrain|PTB|PTB|PTB-XL|PTB-XL|
 |-|-|-|-|-|-|-|-|-|-|-|
@@ -50,7 +50,7 @@ We kindly refer the reviewer to the revised manuscript for more details.
 
 ### W.3 Different Hyperparameters across Datasets.
 
-Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work. The MedTS datasets differ greatly in temporal sampling rate and channel interaction structure, so choosing the appropriate tokenization variant per dataset is necessary for practical deployment. Thereby, in our experiments, we search to identify ***the most suitable inductive bias*** for each dataset.
+Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work (e.g., Medformer *[7]*). The MedTS datasets differ greatly in temporal sampling rate and channel interaction structure, so choosing the appropriate tokenization variant per dataset is necessary for practical deployment. Thereby, in our experiments, we search over these hyperparameters to identify ***the most suitable inductive bias*** for each dataset.
 
 ### W.4 Visualization and Interpretation of the Core Token.
 
@@ -77,3 +77,5 @@ We again thank Reviewer XcRP for all the helpful feedback, which has driven us
 *[5] Revitalizing Multivariate Time Series Forecasting: Learnable Decomposition with Inter-Series Dependencies and Intra-Series Variations Modeling.*
 
 *[6] Timemixer: Decomposable multiscale mixing for time series forecasting.*
+
+*[7] Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification*
