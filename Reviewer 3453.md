@@ -10,7 +10,7 @@ Thank you for pointing this out — this is an excellent observation!
 
 Indeed, as indicated in our implementation and Table 6, TeCh is implemented as ***a general CoTAR-based framework***, in which the tokenization strategy (Temporal, Channel, or Dual) is ***a tunable architectural hyperparameter*** rather than a fixed design. In our experiments, we searched over these configurations to identify the most suitable inductive bias for each dataset. Therefore, the headline SOTA results correspond to the best-performing tokenization variant within the TeCh family, all sharing the same CoTAR module and overall architecture.
 
-We throughly revised the paper to clarify this in the Introduction (*line 101-104*), the Related Work (*line 141-143*), the Method (*Section 4.2*), the Experiments (*line 457-464*), and the Conclusion (*line 480-484*).
+We throughly revised the paper to clarify this in the Introduction (*line 101-104*), the Related Work (*line 141-144*), the Method (*Section 4.2*), the Experiments (*line 457-464*), and the Conclusion (*line 481-483*).
 
 ### W.2 Clarification of CoTAR Computing (Equation 2).
 
@@ -32,7 +32,7 @@ Thanks for raising this important question regarding implementation consistency.
 
 Since CoTAR is designed as ***a seamless replacement for attention***, TeCh is indeed built on a Transformer encoder structure, with attention replaced by our CoTAR module. This is why we still follow the Transformer encoder naming convention.
 
-Regarding file access, we suspect this may be due to a temporary network issue. We are able to consistently access all files on our side. We kindly invite the reviewer to try again using the direct [**link**](https://anonymous.4open.science/r/TeCh-24/layers/Transformer_EncDec.py). Moreover, the full implementation of TeCh—including the CoTAR module—is also provided in the uploaded **Supplementary Material**, where Transformer_EncDec.py can be accessed without any difficulty. 
+Regarding file access, we suspect this may be due to a temporary network issue. We are able to consistently access all files on our side. We kindly invite the reviewer to try again using the direct [**link**](https://anonymous.4open.science/r/TeCh-24/layers/Transformer_EncDec.py). Moreover, the full implementation of TeCh—including the CoTAR module—is also provided in the uploaded **Supplementary Material**, where the *./layers/Transformer_EncDec.py* file can be accessed without any difficulty. 
 
 We hope this clears up the concern and confirms that the released code faithfully implements CoTAR as described.
 
