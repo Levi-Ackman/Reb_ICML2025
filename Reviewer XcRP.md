@@ -50,7 +50,7 @@ We kindly refer the reviewer to the revised manuscript for more details.
 
 ### W.3 Different Hyperparameters across Datasets.
 
-Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work (e.g., Medformer *[7]*). The MedTS datasets differ greatly in temporal sampling rate and channel interaction structure, so choosing the appropriate tokenization variant per dataset is necessary for practical deployment. Thereby, in our experiments, we search over these hyperparameters to identify ***the most suitable inductive bias*** for each dataset.
+Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work (e.g., Medformer *[7]*, COMET *[8]*). The MedTS datasets differ greatly in temporal sampling rate and channel interaction structure, so choosing the appropriate tokenization variant per dataset is necessary for practical deployment. Thereby, in our experiments, we search over these hyperparameters to identify ***the most suitable inductive bias*** for each dataset.
 
 ### W.4 Visualization and Interpretation of the Core Token.
 
@@ -79,3 +79,5 @@ We again thank Reviewer XcRP for all the helpful feedback, which has driven us
 *[6] Timemixer: Decomposable multiscale mixing for time series forecasting.*
 
 *[7] Medformer: A Multi-Granularity Patching Transformer for Medical Time-Series Classification*
+
+*[8] Contrast Everything: A Hierarchical Contrastive Framework for Medical Time-Series*
