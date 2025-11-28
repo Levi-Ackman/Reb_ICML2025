@@ -1,5 +1,3 @@
-## Reviewer XcRP
-
 Thanks to Reviewer XcRP for the constructive comments, especially the recognition of our ***conceptual framing***, the ***linear complexity*** of CoTAR, and ***the rigor and reproducibility of our experiments*** (seven datasets, multiple metrics, comprehensive experiments, and released code). 
 
 We address all noted concerns below. (*Notably, we've uploaded a revised manuscript, all newly added contents are in **Red**, and all revised contents are in **Purple**.*)
@@ -46,11 +44,15 @@ Since neither GAFormer nor CATS provides publicly available code or sufficient i
 
 Across all datasets and metrics, TeCh demonstrates clear and consistent improvements over both Leddam and TimeXer, further supporting the effectiveness of TeCh.
 
-We kindly refer the reviewer to the revised manuscript for more details.
+*We kindly refer the reviewer to the revised manuscript for more details.*
 
 ### W.3 Different Hyperparameters across Datasets.
 
-Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work (e.g., Medformer *[7]*, COMET *[8]*). The MedTS datasets differ greatly in temporal sampling rate and channel interaction structure, so choosing the appropriate tokenization variant per dataset is necessary for practical deployment. Thereby, in our experiments, we search over these hyperparameters to identify ***the most suitable inductive bias*** for each dataset.
+Thank you for bringing this up. Using dataset-specific hyperparameters is ***a common and well-established practice*** in deep learning, including prior MedTS work (e.g., Medformer *[7]*, COMET *[8]*). The use of dataset-specific hyperparameters, particularly in the number of encoder layers for the temporal ($M$) and channel ($N$) branches, is a deliberate design choice that reflects the Adaptive Dual Tokenization strategy in the TeCh framework. 
+1. Justification: MedTS datasets are highly heterogeneous. Some datasets exhibit stronger temporal dependencies (favoring a larger $M$) while others are governed by stronger channel dependencies (favoring a larger $N$).
+2. Adaptability: The TeCh framework is designed to adaptively capture Temporal dependencies, Channel dependencies, or both, by tuning the tokenization strategy and the number of layers in each branch. 
+
+This flexibility allows our model to achieve superior performance across diverse biological signals. For example, Ablation Studies (*Table 4*) show that Temporal tokenization excels on TDBrain, while Channel tokenization excels on PTB. The optimal hyperparameter setting is thus a direct result of this necessary adaptation to the intrinsic patterns of each dataset.
 
 ### W.4 Visualization and Interpretation of the Core Token.
 
@@ -61,7 +63,7 @@ We summarize the findings below:
 * **Temporal embedding space:** The core token consistently lies near the center of all temporal representations, capturing a global temporal state analogous to slow neural rhythms in EEG (e.g., alpha/beta coherence) or beat-to-beat cycle integration in ECG.
 * **Channel embedding space:** The core token occupies a central position, summarizing cross-channel coordination, consistent with EEG frontoparietal hubs or ECG pacemaker-driven myocardial synchronization.
 
-For more information, we kindly refer the reviewer to the revised manuscript. These findings indicate that the core token is not arbitrary; it encodes a centralized, physiologically interpretable representation reflecting inherent coordination in MedTS signals.
+*For more information, we kindly refer the reviewer to the revised manuscript.* These findings indicate that the core token is not arbitrary; it encodes a centralized, physiologically interpretable representation reflecting inherent coordination in MedTS signals.
 
 We again thank Reviewer XcRP for all the helpful feedback, which has driven us to broaden our comparison and explore analysis of the core token. These efforts further strengthen the rigor and completeness of our work. 
 
